@@ -1,0 +1,46 @@
+Homework: Introducción a Javascript
+
+-Variables: Las variables son espacios que les asignamos un nombre donde podemos guadar informacion, es como un cajon que puede guardar ropa y le ponemos por fuera "CajonDeRopa" o un cajon donde guadamos juguetes y le ponemos por fuera "CajonDeJuguetes"
+
+-Strings: Son un tipo de dato que puede almacenar una variable, las variables de tipo String pueden almacenar texto,letras o numeros, por ejemplo:
+var nombre = 'Enrique Lopez'
+var rfc    = 'LOLO740904'
+
+-Funciones(argumentos,return)
+Las funciones son pedazos de codigo, que estan agrupados y a este grupo le podemos llamar de alguna manera. Es una lista de sentencias que estan entre llaves y a todo lo que esta entre llaves le asignamos un nombrel, por ejemplo:
+
+function nombrecompleto() {
+	var nombre   ="Enrique"
+	var apellido = "Lopez"
+	console.log(nombre+ apellido)
+}
+Las funciones despues de hacer algo con lo que mtienen adentro, pueden devolver un valor con la palabra return.
+
+function nombrecompleto() {
+	var nombre   ="Enrique"
+	var apellido = "Lopez"
+	var ncompleto = nombre + apellido
+
+	return ncompleto
+}
+Tambien existe algo llamado argumentos, los argumentos son valores que le enviamos a la funcion para que haga algo con ellos, van despues del nombre de la funcion y encerrados entre parentesis.
+
+function nombrecompleto(nombre,apellido) {
+	var ncompleto = nombre + apellido
+
+	return ncompleto
+}
+para llamar a una funcion como la anterior y enviarle valores de argumentos, seria asi:
+var persona = nombrecompleto('Enrique','Lopez')
+
+
+-Declaraciones if
+con la instruccion if, podemos comparar valores,podemos saber si una variable es igual, o diferente a a cierto valor por ejemplo. Y si el resultado de dicha comparacion es verdadero, esta comparacion nos devuelve un true y si esto ocurre ejecutara las sentencias que esten bajo el if
+if (edad > 18) {
+	console.log('Es mayor de edad')
+}
+-valores booleanos
+son los valores de falso o verdadero, es decir true o false. 
+cuando declaramos una variable que puede almacenar un valor de true o false es variable es de tipo booleana
+var sexomasculino = true
+var nublado = false
