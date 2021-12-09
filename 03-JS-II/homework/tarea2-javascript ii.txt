@@ -1,0 +1,20 @@
+for
+la sentencia for, es para la gestion de bucles,
+es decir, de una serie de instrucciones que se vana a ejecutar una cierta cantidad de veces.
+En otras palabras , el pedazo de codigo que tenga for encerrado entre llaves se ejecutara tantas veces hasta que una condicion se cumpla.
+Esta condicion se dedfine entre parentesis seguidos al for
+for (var numero=0;numero < 100;numero++) {
+	pedazo de codigo a ejecutar
+}
+la condicion lleva tres partes separadas por punto y coma cada una de ellas.
+La primera es la definicion de una variable, la segunda es la condicion, la tercera es el incremento de la variable.
+en el ejeplo anterior: for (var numero=0;numero < 100;numero++) se ejecutara el codigo desde numero=0 hasta numeror = 99, despues ya no.
+
+En javascript hay algunos operadores condicionales
+&& es para cuando deseamos que se ejecute algo si 2 condiciones son VERDADERAS, si una de las 2 es falsa, el resultado final sera un false
+|| es cuando definimos que se ejecute algo si una de los 2 condiciones se cumple, basta que se cumpla una para devolver un true
+! es cuando despues de que javascript ejecuta la comparacion el resultado de esa comparacion lo negamos, inviertiendo el valor devuelvo.
+por ejemplo: si edad valiera 20
+if (edad>18) esto devolveria un true
+pero si le agregamos el signo de negacion:
+if !(edad>18) devolvera un false porque el negador, nos devuelve el valor invero al de el resultado de la comparacion.
