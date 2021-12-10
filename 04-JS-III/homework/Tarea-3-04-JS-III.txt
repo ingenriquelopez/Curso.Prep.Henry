@@ -1,0 +1,12 @@
+ARRAYS:
+En javascrits existe un tipo esepcial de variable que se llaman arrays o arreglos.
+una variable es un espacio en memoria que almacenara algun tipo de informacion, y estaa referenciado por un nombre
+por ejemplo: var edad = 18;
+pero la variable edad solo podra almacenar un valor a la vez, podra cambiar de valor pero siempre sera solamente 1
+
+Los arreglos en cambio, son unas variables especiales, ya que dentro de si mismas, pueden almacenar muchos valores y de diferentes tipos, un valor podria sder booleano, otro de string  y otr mas de numero por ejemplo.
+pero todos estos valores que contenga en su interior,  se referencia mediante el mismo nombre de la variable, solo que tenemos que especificar la posicion. por ejemplo:
+var datos = ['Enrique,'Lopez',true,47,750];
+datos[0] me permite acceder a 'Enrique'
+datos[2] me permite acceder al valor de true, y asi los demas
+pero todos ellos bajo la misma variable datos.
