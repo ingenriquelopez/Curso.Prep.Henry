@@ -1,0 +1,31 @@
+* Objetos
+    Un objeto es como una variable que tiene en su interior, otras variables que se llaman propiedades y ademas funciones que se llaman metodos.
+    por ejemplo un objeto alumno
+
+    const alumno = {  //este es ub objeto llamado alumno
+    	matricula: '1234', // esta es una propiedad llamada matricula
+    	nombre: 'Enrique', // esta es otra propiedad
+    	apellido: 'Lopez'  // esta es una mas
+
+    	imprimeNombre: function() {  // esto es un metodo
+    		console.log(this.nombre);
+    	}
+    }
+
+  
+	* Propiedades
+		Las propiedades son caracteristicas de un objeto, son variables que almacenan valores propios del objeto, como en el ejemplo del objeto alumno, se definen primero su nombre, despues los dos puntos y seguiendo con su valor.
+		Los valores de las propiedades pueden ser modificadas si se requiere
+		Las propieedades estan organizadas en pares de llave:valor, la llave identifica la propiedad y el valor su contenido
+
+	* Métodos
+	Los metodos son funciones que trabajan con las propiedades de los objetos, se definen primero escribiendo su nombre, seguido : y despues la palabra function() y entre llaves el contenido de dicha funcion.
+
+	* Bucle `for…in`
+	   el bucle for in sirve para iterar entre el contenido de las propiedades de un objeto, cada objeto tiene sus propiedades y este ciclo permite recorrer cada una de ellas, en cada iteracion estamos "parados en una propiedad" y podemos acceder a su valor escribiendo el objeto[llave]
+
+	* Notación de puntos vs notación de corchetes
+	la notac ion de puntos es una forma de acceder a los valores de las propiedades de un objeto
+	la noptacion de corchetes tambien, solo que en la de corchetes se pone entre comilla(s) el nombre de la propiedad ejemplo: alumno['matricula'] y con puntos seria alumno.matricula
+	generalmente la notacion de corchetes es mas usada con matrices.
+
