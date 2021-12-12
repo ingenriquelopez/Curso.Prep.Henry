@@ -1,0 +1,8 @@
+PROTOTYPE.
+todos los objetos en jabascript tienen una funcion que se llama prototype.
+atraves de ella nosotros podemos agregar propiedades y metodos a objetos.
+
+CONSTRUCTORES.
+los constructores son funciones que van dentro del cuerpo de la clase (funcion)
+que se utiliza principalmente para "construir" el objeto asignando los valores recibios a las respectivas
+propiedades de la clase.
