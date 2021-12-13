@@ -1,0 +1,4 @@
+CALLSBACKS
+
+Las callbacks son funciones que pueden enviarse como parametros a otras funciones
+yo tengo una funcion llamada f1 y a esta le puedo enviar la f2 como parametro.
